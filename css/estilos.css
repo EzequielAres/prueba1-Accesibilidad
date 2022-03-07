@@ -243,8 +243,13 @@ section li img{
 	vertical-align: middle;
 }
 
+ol {
+	background-color: #FFFFFF;
+}
+
 /* Hacemos que las listas que estén dentro de la lista ordenada tenga una decoración de cuadro */
-ol ul {list-style: square;}
+ol ul {list-style: square;
+}
 
 /*En el segundo hijo de la lista ordenada hacemos que no tenga estilo (Prensa y En la red) 
 Ya que tienen el icono.*/
@@ -255,7 +260,7 @@ y los elemento de la sublista del tercer elemento tengan otra tipografía y est�
 ol > li > ul > li > ul > li,
 ol > li:nth-child(3) > ul > li{
 	font-style: italic;
-	font-family: serif
+	font-family: serif;
 }
 
 /*******************
